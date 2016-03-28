@@ -1,0 +1,51 @@
+basic structure for css section
+<style>
+</style>
+everything goes within <style> brackets
+color - h2 {color: red;}
+classes - reusable style elements
+.blue-text {
+    color: blue;
+  }
+added thus h2 class="blue-text">CatPhotoApp</h2>
+html class declarations don't start with a period, css classes do
+class="your-class-here"
+font size: font-size: 30px; as a property for css classes
+font-size: 16px;
+font-family: Monospace;
+<img src="https://bit.ly/fcc-relaxing-cat">
+.thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+<img class="class1 class2">
+border-radius - rounds corners
+border radius can be pixels or percent
+<p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>
+anchor tag <a> </a> links outside of page
+# to replace anchor tag link until needed
+<a href="#"><img src="https://bit.ly/fcc-running-cats"></a>
+alt attribute - image description in text on hover-over
+<img src="www.your-image-source.com/your-image.jpg" alt="your alt text">
+unordered list:
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+ordered list:
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+input:
+<input type="text">
+placeholder for input:
+<input type="text" placeholder="this is placeholder text">
+submit data from a form:
+<form action="/url-where-you-want-to-submit-form-data"></form>
+submit button:
+<button type="submit">this button submits the form</button>
+make type in form required (e.g. text)
+ <input type="text" required>
+radio buttons:
+<label><input type="radio" name="indoor-outdoor"> Indoor</label>
