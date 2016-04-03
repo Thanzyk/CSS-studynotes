@@ -1,0 +1,26 @@
+id takes precedence over classes
+second class takes precedence over first class
+in-line styles take first precedence over all css
+add !important to style declaration to create top precedence
+hex codes represent colors
+red/green/blue, each gets two digits in #000000
+0 is lowest, represents darkest
+F is highest, represents brightest
+black is #000000
+white is #FFFFFF
+brightest red #FF0000
+brightest green #00FF00
+brightest blue #0000FF
+orange #FFA500
+grey #808080
+very dark grey, almost black #111111
+can shorten hex code to three digits #000 (one per RGB)
+shortened red #F00
+can also use paranthetical rgb values - e.g. rgb(0, 0, 0)
+specify brightness anywhere from 0 to 255
+black is rgb(0, 0, 0)
+white is rgb(255, 255, 255)
+red is rgb(255, 0, 0)
+green is rgb(0, 255, 0)
+blue is rgb(0, 0, 255)
+orange is rgb(255, 165, 0)
